@@ -11,7 +11,7 @@ end
 
 def engage
     # binding.pry
+  date = generate_star_date
 
   puts state_log(date)
-  date = generate_star_date
 end
